@@ -4,6 +4,8 @@ public class Loan {
     private boolean isPaid;
     private double interestRate;
 
+    // static variable (needs static method to access it)
+    // is a class-Level member
     static private double maxLoanAmount;
 
     public static double getMaxLoanAmount() {
